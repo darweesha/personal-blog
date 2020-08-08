@@ -11,14 +11,14 @@
     "@mdx-js/mdx": "^1.5.1",
     "@mdx-js/react": "^1.5.1",
     "babel-plugin-styled-components": "^1.10.0",
-    "gatsby": "2.23.12",
+    "gatsby": "^2.24.37",
     "gatsby-image": "^2.0.39",
     "gatsby-plugin-feed-mdx": "^1.0.0",
     "gatsby-plugin-google-analytics": "^2.0.18",
     "gatsby-plugin-manifest": "^2.0.29",
     "gatsby-plugin-mdx": "^1.2.14",
     "gatsby-plugin-netlify-cms": "^4.3.7",
-    "gatsby-plugin-offline": "^2.0.25",
+    "gatsby-plugin-offline": "^3.2.22",
     "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-plugin-sharp": "^2.0.35",
     "gatsby-plugin-styled-components": "^3.0.7",
@@ -27,23 +27,24 @@
     "gatsby-remark-images": "^3.3.9",
     "gatsby-remark-responsive-iframe": "^2.1.1",
     "gatsby-remark-smartypants": "^2.0.9",
-    "gatsby-remark-vscode": "^2.1.2",
+    "gatsby-remark-vscode": "^3.0.1",
     "gatsby-source-filesystem": "^2.0.29",
     "gatsby-transformer-sharp": "^2.1.18",
     "netlify-cms-app": "^2.9.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.0",
+    "react-helmet": "^6.1.0",
     "react-switch": "^5.0.0",
     "react-typography": "^0.16.19",
-    "styled-components": "^4.2.0",
+    "styled-components": "^5.1.1",
     "typeface-merriweather": "0.0.72",
-    "typeface-montserrat": "0.0.54",
+    "typeface-montserrat": "0.0.75",
     "typography": "^0.16.19",
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {
-    "prettier": "^1.17.0"
+    "npm-check": "^5.9.2",
+    "prettier": "^2.0.5"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
@@ -61,6 +62,7 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "upgrade-interactive": "npm-check --update"
   }
 }
